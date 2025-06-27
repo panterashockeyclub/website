@@ -46,7 +46,7 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + ($('#logo').html() ? $('#logo').html() : 'PANTERAS') + '</span>' +
+					'<span class="title">' + ($('#logo').html() ? $('#logo').html() : 'PANTERAS HOCKEY LINEA') + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
