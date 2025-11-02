@@ -1906,14 +1906,8 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 767px) {
-  #four .row.gtr-uniform {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-  }
-  #four .row.gtr-uniform > section {
-    width: 100%;
-    max-width: 100%;
+  #banner {
+    background-position: 300px center;
   }
 }
 
@@ -3897,4 +3891,32 @@ input, select, textarea {
   width: auto;
   max-width: 100%;
   display: block;
+}
+
+/* Custom styles for download-list in Prevención de la violencia */
+.download-list {
+	list-style: none;
+	padding-left: 0;
+}
+.download-list li {
+	margin-bottom: 1em;
+}
+.download-list a {
+	color: #fff !important;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5em;
+	transition: text-decoration 0.2s;
+}
+.download-list a:hover {
+	text-decoration: underline;
+}
+.download-list .icon {
+	color: #fff;
+	font-size: 1.2em;
+}
+.texto_violenca{
+	text-align: left;
 }
